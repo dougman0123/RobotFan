@@ -41,7 +41,6 @@ void loop() {
       if (data & GES_LEFT_FLAG)            { Serial.println("Left swipe");        delay(500); }
       if (data & GES_UP_FLAG)              { Serial.println("Up");                delay(500); }
       if (data & GES_DOWN_FLAG)            { Serial.println("Down");              delay(500); }
-      if (data & GES_FORWARD_FLAG)         { Serial.println("Select");            delay(800); }
       if (data & GES_CLOCKWISE_FLAG)       { Serial.println("Clockwise");         delay(600); }
       if (data & GES_COUNT_CLOCKWISE_FLAG) { Serial.println("Counter-clockwise"); delay(600); }
     }
