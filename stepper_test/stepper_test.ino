@@ -1,3 +1,4 @@
+// NEMA17 FlashForge 17HD4063-06N wiring: Red=A1, Yellow=A2, Blue=B1, Green=B2
 #define STEP_PIN 5
 #define DIR_PIN  6
 
